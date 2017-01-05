@@ -105,7 +105,7 @@ bosh -n interpolate --vars-store cf-deployment-vars.yml -o opsfiles/gcp.yml -o o
 
 ## Upload Stemcells
 
-1. Download and upload latest (Google stemcell)[http://bosh.io/stemcells]
+1. Download and upload latest [Google stemcell](http://bosh.io/stemcells)
 ```
 bosh upload-stemcell ~/Downloads/light-bosh-stemcell-XXXX.X-google-kvm-ubuntu-trusty-go_agent.tgz
 ```
